@@ -1,5 +1,5 @@
 {
-  "name": "pms-components",
+  "name": "@rudneisantiago/pms-components",
   "version": "0.1.0",
   "private": true,
   "description": "Biblioteca simples de componentes utilizada na Prefeitura Municipal de Santos",
