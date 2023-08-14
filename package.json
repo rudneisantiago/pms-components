@@ -1,9 +1,12 @@
 {
-  "name": "pms-components",
+  "name": "@rudneisantiago/pms-components",
   "version": "0.1.0",
   "private": true,
   "description": "Biblioteca simples de componentes utilizada na Prefeitura Municipal de Santos",
   "main": "./dist/pms-components.common.js",
+  "publishConfig": {
+    "@rudneisantiago:registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
