@@ -4,6 +4,9 @@
   "private": true,
   "description": "Biblioteca simples de componentes utilizada na Prefeitura Municipal de Santos",
   "main": "./dist/pms-components.common.js",
+  "publishConfig": {
+    "@rudsan:registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
