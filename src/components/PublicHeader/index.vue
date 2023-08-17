@@ -32,7 +32,8 @@ export default {
 .public-header {
   background: #0d291b none repeat scroll 0 0;
   color: #dcf9c1;
-  padding: 15px 15px 30px 15px;
+  padding-top: 15px;
+  padding-bottom: 30px;
 }
 
 .public-header p,

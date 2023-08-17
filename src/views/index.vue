@@ -9,7 +9,11 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12 col-sm-4">
+          <label>Datepicker</label>
           <Datepicker v-model="selectDate" />
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <PDFImport v-model="filePDF" />
         </div>
       </div>
     </div>
@@ -30,7 +34,13 @@
 </template>
 
 <script>
-import { PublicHeader, Footer, Breadcrumb, Datepicker } from "../components";
+import {
+  PublicHeader,
+  Footer,
+  Breadcrumb,
+  Datepicker,
+  PDFImport,
+} from "../components";
 
 export default {
   name: "main-view",
@@ -39,10 +49,12 @@ export default {
     Footer,
     Breadcrumb,
     Datepicker,
+    PDFImport,
   },
   data() {
     return {
       selectDate: null,
+      filePDF: null,
     };
   },
 };

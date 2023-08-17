@@ -1,5 +1,5 @@
 <template>
-  <div class="datepicker input-group">
+  <div class="input-group">
     <date
       placeholder="Selecione a data"
       input-class="form-control"
