@@ -6,6 +6,13 @@
       </div>
     </PublicHeader>
     <Breadcrumb />
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-4">
+          <Datepicker v-model="selectDate" />
+        </div>
+      </div>
+    </div>
     <Footer :email="'portaldatransparencia@santos.sp.gov.br'">
       <h4>OUVIDORIA</h4>
       <p>
@@ -23,7 +30,7 @@
 </template>
 
 <script>
-import { PublicHeader, Footer, Breadcrumb } from "../components";
+import { PublicHeader, Footer, Breadcrumb, Datepicker } from "../components";
 
 export default {
   name: "main-view",
@@ -31,6 +38,12 @@ export default {
     PublicHeader,
     Footer,
     Breadcrumb,
+    Datepicker,
+  },
+  data() {
+    return {
+      selectDate: null,
+    };
   },
 };
 </script>
